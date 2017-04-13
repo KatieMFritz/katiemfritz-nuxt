@@ -3,15 +3,15 @@
     <div class="c-contact u-container">
       <h3 class="u-center-text">Contact Me</h3>
       <ul class="c-nav c-nav--center">
-        <li><a href="mailto:katie@katiemfritz.com" title="Email"><span class="icon icon-envelope"></span><span class="u-visually-hidden">Email</span></a></li>
-        <li><a href="https://github.com/katiemfritz" title="Github"><span class="icon icon-social-github"></span><span class="u-visually-hidden">Github</span></a></li>
-        <li><a href="https://www.linkedin.com/in/katiemfritz" title="LinkedIn"><span class="icon icon-social-linkedin"></span><span class="u-visually-hidden">LinkedIn</span></a></li>
-        <li><a href="https://www.facebook.com/katiemfritzllc" title="Facebook"><span class="icon icon-social-facebook"></span><span class="u-visually-hidden">Facebook</span></a></li>
-        <li><a href="https://twitter.com/KatieMaeFritz" title="Twitter"><span class="icon icon-social-twitter"></span><span class="u-visually-hidden">Twitter</span></a></li>
+        <li class="c-nav__item"><a class="c-nav__link" href="mailto:katie@katiemfritz.com" title="Email"><span class="icon icon-envelope"></span><span class="u-visually-hidden">Email</span></a></li>
+        <li class="c-nav__item"><a class="c-nav__link"  href="https://github.com/katiemfritz" title="Github"><span class="icon icon-social-github"></span><span class="u-visually-hidden">Github</span></a></li>
+        <li class="c-nav__item"><a class="c-nav__link"  href="https://www.linkedin.com/in/katiemfritz" title="LinkedIn"><span class="icon icon-social-linkedin"></span><span class="u-visually-hidden">LinkedIn</span></a></li>
+        <li class="c-nav__item"><a class="c-nav__link"  href="https://www.facebook.com/katiemfritzllc" title="Facebook"><span class="icon icon-social-facebook"></span><span class="u-visually-hidden">Facebook</span></a></li>
+        <li class="c-nav__item"><a class="c-nav__link"  href="https://twitter.com/KatieMaeFritz" title="Twitter"><span class="icon icon-social-twitter"></span><span class="u-visually-hidden">Twitter</span></a></li>
       </ul>
     </div>
-    <div class="u-container c-copyright u-center-text">
-    <p>Copyright © 2017 Katie M Fritz, LLC. All rights reserved &nbsp;•&nbsp; Built with <a href="http://craftcms.com">Craft</a>.</p>
-    </div>
+    <section class="u-container c-copyright u-center-text">
+    <p>Copyright © 2017 Katie M Fritz, LLC. All rights reserved &nbsp;•&nbsp; Built with <a href="https://nuxtjs.org/">Nuxt</a>.</p>
+    </section>
   </footer>
 </template>

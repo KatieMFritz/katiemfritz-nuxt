@@ -102,12 +102,12 @@ NAVIGATION
   overflow: auto;
 }
 
-.c-nav li {
+.c-nav__item {
   margin-right: 1rem;
   display: inline;
 }
 
-.c-nav a {
+.c-nav__link {
   text-decoration: none;
   padding: .75em;
   display: inline-block;
