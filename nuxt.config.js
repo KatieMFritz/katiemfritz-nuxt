@@ -25,10 +25,6 @@ module.exports = {
       // Stylesheets
       {
         rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'
-      },
-      {
-        rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab'
       },
       {
@@ -42,10 +38,6 @@ module.exports = {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
     siteName: siteName
   },
-  /*
-  ** Global CSS
-  */
-  css: ['~assets/css/main.css'],
   /*
   ** Customize the progress-bar color
   */

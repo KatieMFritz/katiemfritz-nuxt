@@ -1,12 +1,12 @@
 <template>
-  <section class="container">
+  <main class="u-container">
     <h1>Services</h1>
     <ul>
       <li v-for="service in services">
         {{ service.name }}
       </li>
     </ul>
-  </section>
+  </main>
 </template>
 
 <script>

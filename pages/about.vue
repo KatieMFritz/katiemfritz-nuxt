@@ -1,7 +1,7 @@
 <template>
-  <section class="container">
+  <main class="u-container">
     <h1>About</h1>
-    The Problem I Solve
+    <p>The Problem I Solve
     - arstarst oiean rsoieanr st
     Questions I Ask
     - Who actually is your customer? What are they looking for? Are they finding it? Etc...
@@ -9,8 +9,8 @@
     - Case Studies
     - Partners (expertise you can bring in)
     - Contact
-      - form where they can provide more info
-  </section>
+      - form where they can provide more info</p>
+  </main>
 </template>
 
 <script>
