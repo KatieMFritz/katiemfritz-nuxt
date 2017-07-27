@@ -7,7 +7,7 @@
 
       <p>Here's a cat picture.</p>
 
-      <img src="..\assets\img\mac_at_work.jpg" alt="MacGyver doing web consulting">
+      <img src="..\assets\images\mac_at_work.jpg" alt="MacGyver doing web consulting">
     </div>
   </main>
 </template>

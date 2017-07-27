@@ -1,6 +1,9 @@
 <template>
-  <section class="container">
-    <h1>Home</h1>
+  <section class="m-banner">
+    <div class="l-container m-banner--content">
+      <h1 class="m-banner--title">Revive your website</h1>
+      <p class="m-banner--tagline">Transform a necessary evil into an empowering, intuitive resource for you and those you serve.</p>
+    </div>
   </section>
 </template>
 

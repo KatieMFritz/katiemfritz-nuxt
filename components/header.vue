@@ -1,18 +1,25 @@
 <template>
-  <header class="c-header">
-    <nav class="c-nav--header u-container">
-      <div class="c-logo">
-        <a href="/">
-          <img
-          class="c-logo__img" src="../assets/img/logo.png" alt="Katie M Fritz, LLC" />
-        </a>
-      </div>
-      <!-- https://egghead.io/lessons/vue-create-vue-js-layout-and-navigation-with-nuxt-js -->
-      <ul class="c-nav">
-        <li class="c-nav__item"><a class="c-nav__link" href="/">Home</a></li>
-        <li class="c-nav__item"><a class="c-nav__link" href="/about">About</a></li>
-        <li class="c-nav__item"><a class="c-nav__link" href="/services">Services</a></li>
-      </ul>
-    </nav>
-  </header>
+  <header class="o-header" role="banner">
+    <div class="l-container">
+      <a href="/" title="Katie M Fritz, LLC | Home			" class="m-logo-link">
+        <img src="../assets/images/KMF-logo-transparent.png" class="a-logo" alt="Katie M Fritz, LLC" />
+      </a><!-- end a-logo -->
+
+      <nav class="m-nav m-nav--primary">
+        <ul class="m-nav__list">
+          <li class="m-nav__item m-nav__item--primary">
+            <a href="/" class="m-nav__link ">Home</a>
+          </li>
+          <li class="m-nav__item m-nav__item--primary">
+            <a href="/about" class="m-nav__link is-active">About</a>
+          </li>
+          <li class="m-nav__item m-nav__item--primary">
+            <a href="/services" class="m-nav__link ">Services</a>
+          </li>
+        </ul><!--end m-nav__list-->
+      </nav><!--end m-nav-->
+
+    </div>
+  </header><!-- end o-header -->
+
 </template>
