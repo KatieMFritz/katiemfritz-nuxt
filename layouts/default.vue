@@ -1,19 +1,19 @@
 <template>
   <div>
-    <KmfHeader/>
+    <oHeader/>
     <nuxt/>
-    <KmfFooter/>
+    <oFooter/>
   </div>
 </template>
 
 <script>
-import KmfHeader from '~components/header.vue'
-import KmfFooter from '~components/footer.vue'
+import oHeader from '~components/organisms/o-header.vue'
+import oFooter from '~components/organisms/o-footer.vue'
 
 export default {
   components: {
-    KmfHeader: KmfHeader,
-    KmfFooter: KmfFooter
+    oHeader: oHeader,
+    oFooter: oFooter
   }
 }
 </script>

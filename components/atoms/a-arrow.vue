@@ -1,0 +1,7 @@
+<template>
+<div class="a-arrow">
+  <div class="a-arrow__start--left"></div>
+  <div class="a-arrow__line"></div>
+  <div class="a-arrow__point--right"></div>
+</div>
+</template>
