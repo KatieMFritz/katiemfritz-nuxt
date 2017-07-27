@@ -1,7 +1,8 @@
 <template>
+
   <header class="o-header" role="banner">
     <div class="l-container">
-      <a href="/" title="Katie M Fritz, LLC | Home			" class="m-logo-link">
+      <a href="/" title="Katie M Fritz, LLC | Home" class="m-logo-link">
         <img src="../assets/images/KMF-logo-transparent.png" class="a-logo" alt="Katie M Fritz, LLC" />
       </a><!-- end a-logo -->
 
@@ -11,7 +12,7 @@
             <a href="/" class="m-nav__link ">Home</a>
           </li>
           <li class="m-nav__item m-nav__item--primary">
-            <a href="/about" class="m-nav__link is-active">About</a>
+            <a href="/about" class="m-nav__link">About</a>
           </li>
           <li class="m-nav__item m-nav__item--primary">
             <a href="/services" class="m-nav__link ">Services</a>
@@ -19,7 +20,9 @@
         </ul><!--end m-nav__list-->
       </nav><!--end m-nav-->
 
-    </div>
+    </div><!-- end l-container -->
   </header><!-- end o-header -->
 
 </template>
+
+<!-- TODO: add "is-active" class to current page-->

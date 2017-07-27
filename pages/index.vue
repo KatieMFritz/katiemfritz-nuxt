@@ -1,18 +1,19 @@
 <template>
-  <section class="m-banner">
-    <div class="l-container m-banner--content">
-      <h1 class="m-banner--title">Revive your website</h1>
-      <p class="m-banner--tagline">Transform a necessary evil into an empowering, intuitive resource for you and those you serve.</p>
-    </div>
-  </section>
+  <main role="main">
+    <KmfBanner/>
+  </main>
 </template>
 
 <script>
 import pageHead from '../helpers/page-head'
+import KmfBanner from '~components/banner.vue'
 
 export default {
   head: pageHead({
     title: 'Home'
-  })
+  }),
+  components: {
+    KmfBanner: KmfBanner
+  }
 }
 </script>
