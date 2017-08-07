@@ -1,8 +1,8 @@
 <template>
   <div>
-    <oHeader/>
+    <o-header/>
     <nuxt/>
-    <oFooter/>
+    <o-footer/>
   </div>
 </template>
 
@@ -12,8 +12,8 @@ import oFooter from '../components/organisms/o-footer.vue'
 
 export default {
   components: {
-    oHeader: oHeader,
-    oFooter: oFooter
+    'o-header': oHeader,
+    'o-footer': oFooter
   }
 }
 </script>

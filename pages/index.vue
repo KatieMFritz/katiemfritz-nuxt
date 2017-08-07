@@ -1,7 +1,7 @@
 <template>
   <main role="main">
-    <mBanner/>
-    <mCta/>
+    <m-banner/>
+    <m-cta/>
   </main>
 </template>
 
@@ -15,8 +15,8 @@ export default {
     title: 'Home'
   }),
   components: {
-    mBanner: mBanner,
-    mCta: mCta
+    'm-banner': mBanner,
+    'm-cta': mCta
   }
 }
 </script>
