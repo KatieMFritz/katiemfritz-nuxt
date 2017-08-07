@@ -34,7 +34,7 @@ module.exports = {
   ],
   // Environment Variables
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:8080',
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
     siteName: siteName
   },
   /*

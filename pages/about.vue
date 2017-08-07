@@ -15,6 +15,7 @@
       <h2>I want to make an actual difference.</h2>
       <p>Like my clients, I want to make the world better, however I can. I’ve spent my whole career working in, volunteering for, and providing services to the nonprofit sector.  Not every nonprofit makes the world better, and most websites don’t really help. These days, that’s my focus. I get what it’s like to have a small tech budget, limited time, but a big mission! Together we can build your capacity so you can do more good.</p>
     </section>
+    <o-past-clients/>
     <m-cta :message="cta"/>
   </main>
 </template>
@@ -22,10 +23,12 @@
 <script>
 import pageHead from '../helpers/page-head'
 import mCta from '../components/molecules/m-CTA.vue'
+import oPastClients from '../components/organisms/o-past-clients.vue'
 
 export default {
   head: pageHead({
-    title: 'About'
+    title: 'About',
+    description: 'About Katie Fritz, web developer and communications consultant at Katie M Fritz, LLC'
   }),
   data () {
     return {
@@ -33,7 +36,8 @@ export default {
     }
   },
   components: {
-    'm-cta': mCta
+    'm-cta': mCta,
+    'o-past-clients': oPastClients
   }
 }
 </script>
