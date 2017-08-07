@@ -1,6 +1,6 @@
 <template>
 <section class="o-teaser">
-  <h2 class="l-container">How can I help?</h2>
+  <h2 class="l-container l-slice--l">{{ headline }}</h2>
   <m-bubble-group :bubbles="bubbles"/>
   <m-cta :message="cta"/>
 </section>
@@ -13,12 +13,13 @@ import mCta from '../molecules/m-cta.vue'
 export default {
   data () {
     return {
+      headline: 'What do you want to know?',
       bubbles: [
-        { content: 'bubble <strong>one</strong>' },
-        { content: 'bubble <strong>two</strong>' },
-        { content: 'bubble <strong>three</strong>' }
+        { content: 'Is our website <strong>working for us</strong>?' },
+        { content: 'How do I <strong>update</strong> this website?' },
+        { content: 'How do we <strong>organize</strong> all this information?' }
       ],
-      cta: 'Want to <a href="/services">learn more</a>?'
+      cta: 'I can help you answer these <a href="/services" title="Services">and many other questions</a>.'
     }
   },
   components: {
