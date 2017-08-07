@@ -6,19 +6,7 @@
         <img src="../../assets/images/KMF-logo-transparent.png" class="a-logo" alt="Katie M Fritz, LLC" />
       </a><!-- end a-logo -->
 
-      <nav class="m-nav m-nav--primary">
-        <ul class="m-nav__list">
-          <li class="m-nav__item m-nav__item--primary">
-            <a href="/" class="m-nav__link ">Home</a>
-          </li>
-          <li class="m-nav__item m-nav__item--primary">
-            <a href="/about" class="m-nav__link">About</a>
-          </li>
-          <li class="m-nav__item m-nav__item--primary">
-            <a href="/services" class="m-nav__link ">Services</a>
-          </li>
-        </ul><!--end m-nav__list-->
-      </nav><!--end m-nav-->
+      <m-primary-nav/>
 
     </div><!-- end l-container -->
   </header><!-- end o-header -->
@@ -26,3 +14,18 @@
 </template>
 
 <!-- TODO: add "is-active" class to current page-->
+
+<script>
+import mPrimaryNav from '../molecules/m-primary-nav.vue'
+
+export default {
+  data () {
+    return {
+
+    }
+  },
+  components: {
+    'm-primary-nav': mPrimaryNav
+  }
+}
+</script>

@@ -1,9 +1,9 @@
 <template>
 <section class="m-cta l-container l-slice--l">
 
-  <aArrow/>
+  <a-arrow/>
 
-  <p>Do this thing <a href="#">right here</a>!</p>
+  <p v-html="message"></p>
 
 </section>
 </template>
@@ -12,8 +12,13 @@
 import aArrow from '../atoms/a-arrow.vue'
 
 export default {
+  data () {
+    return {
+      message: 'Do this thing <a href="#">right here</a>!'
+    }
+  },
   components: {
-    aArrow: aArrow
+    'a-arrow': aArrow
   }
 }
 </script>
