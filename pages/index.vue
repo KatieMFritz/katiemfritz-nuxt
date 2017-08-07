@@ -7,8 +7,8 @@
 
 <script>
 import pageHead from '../helpers/page-head'
-import mBanner from '~components/molecules/m-banner.vue'
-import mCta from '~components/molecules/m-cta.vue'
+import mBanner from '../components/molecules/m-banner.vue'
+import mCta from '../components/molecules/m-cta.vue'
 
 export default {
   head: pageHead({

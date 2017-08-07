@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import aArrow from '~components/atoms/a-arrow.vue'
+import aArrow from '../atoms/a-arrow.vue'
 
 export default {
   components: {
