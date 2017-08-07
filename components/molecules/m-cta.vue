@@ -12,11 +12,7 @@
 import aArrow from '../atoms/a-arrow.vue'
 
 export default {
-  data () {
-    return {
-      message: 'Do this thing <a href="#">right here</a>!'
-    }
-  },
+  props: ['message'],
   components: {
     'a-arrow': aArrow
   }

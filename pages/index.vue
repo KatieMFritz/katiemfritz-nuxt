@@ -1,14 +1,14 @@
 <template>
   <main role="main">
     <m-banner/>
-    <m-cta/>
+    <o-teaser-questions/>
   </main>
 </template>
 
 <script>
 import pageHead from '../helpers/page-head'
 import mBanner from '../components/molecules/m-banner.vue'
-import mCta from '../components/molecules/m-cta.vue'
+import oTeaserQuestions from '../components/organisms/o-teaser-questions.vue'
 
 export default {
   head: pageHead({
@@ -16,7 +16,7 @@ export default {
   }),
   components: {
     'm-banner': mBanner,
-    'm-cta': mCta
+    'o-teaser-questions': oTeaserQuestions
   }
 }
 </script>
