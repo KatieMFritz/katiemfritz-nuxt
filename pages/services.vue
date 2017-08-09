@@ -9,7 +9,7 @@
 <script>
 import pageHead from '../helpers/page-head'
 import mBubbleGroup from '../components/molecules/m-bubble-group.vue'
-import mCta from '../components/molecules/m-CTA.vue'
+import mCta from '../components/molecules/m-cta.vue'
 
 var INTRO =
   '<h1>Services</h1>' +

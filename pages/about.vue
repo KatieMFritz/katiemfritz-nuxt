@@ -22,7 +22,7 @@
 
 <script>
 import pageHead from '../helpers/page-head'
-import mCta from '../components/molecules/m-CTA.vue'
+import mCta from '../components/molecules/m-cta.vue'
 import oPastClients from '../components/organisms/o-past-clients.vue'
 
 export default {
