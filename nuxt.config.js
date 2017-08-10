@@ -26,6 +26,9 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'}
     ]
   },
+  modules: [
+    ['@nuxtjs/google-analytics', { ua: 'UA-48626024-3' }]
+  ],
   css: [
     {
       src: '~assets/css/main.css',
