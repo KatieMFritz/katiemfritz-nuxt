@@ -16,6 +16,10 @@ export default options => {
           name: 'description',
           content: options.description || 'Katie Fritz makes intuitive, empowering websites for progressive organizations.'
         },
+        {
+          name: 'robots',
+          content: options.robots || 'index, follow'
+        },
         // Open Graph
         {
           property: 'og:title',

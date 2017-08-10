@@ -22,6 +22,7 @@ module.exports = {
     link: [
       // Favicon
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // Fonts
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i|Josefin+Slab:400,700,700i'},
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'}
     ]

@@ -1,8 +1,8 @@
 {
   "name": "katiemfritz-nuxt",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "Chris Fritz <chrisvfritz@gmail.com>",
+  "description": "Business website for Katie M Fritz, LLC",
+  "author": "Katie Fritz <katie@katiemfritz.com>",
   "private": true,
   "dependencies": {
     "@nuxtjs/google-analytics": "^1.0.0",

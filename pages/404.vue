@@ -10,7 +10,13 @@
 </template>
 
 <script>
+import pageHead from '../helpers/page-head'
+
 export default {
-  props: ['error']
+  props: ['error'],
+  head: pageHead({
+    title: 'Page Not Found (404)',
+    robots: 'nofollow'
+  })
 }
 </script>

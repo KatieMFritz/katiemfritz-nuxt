@@ -31,7 +31,8 @@ var BUBBLES = [
 
 export default {
   head: pageHead({
-    title: 'Services'
+    title: 'Services',
+    description: 'Web design, web development, content strategy, user experience, nonprofit technology consulting, and more.'
   }),
   data () {
     return {
