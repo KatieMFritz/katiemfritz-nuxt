@@ -4,6 +4,7 @@
   <div class="m-gallery" >
     <m-gallery-item
       v-for="client in clients"
+      :key="client.name"
       :src="client.src"
       :alt="alt"
       :caption="client.name"

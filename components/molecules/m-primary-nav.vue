@@ -1,8 +1,10 @@
 <template>
 <nav class="m-nav m-nav--primary">
   <ul class="m-nav__list">
-    <li v-for="link in links" class="m-nav__item m-nav__item--primary">
-      <a :href="link.url" class="m-nav__link">{{ link.label }}</a>
+    <li v-for="link in navLinks" class="m-nav__item m-nav__item--primary">
+      <router-link :to="link.path" exact class="m-nav__link">
+        {{ link.label }}
+      </router-link>
     </li>
   </ul><!--end m-nav__list-->
 </nav><!--end m-nav-->
@@ -12,17 +14,17 @@
 export default {
   data () {
     return {
-      links: [
+      navLinks: [
         {
-          'url': '/',
+          'path': '/',
           'label': 'Home'
         },
         {
-          'url': '/about',
+          'path': '/about',
           'label': 'About'
         },
         {
-          'url': '/services',
+          'path': '/services',
           'label': 'Services'
         }
       ]

@@ -13,8 +13,6 @@
 
 </template>
 
-<!-- TODO: add "is-active" class to current page-->
-
 <script>
 import mPrimaryNav from '../molecules/m-primary-nav.vue'
 
