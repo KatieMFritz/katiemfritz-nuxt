@@ -1,7 +1,12 @@
 <template>
 <main role="main" id="maincontent">
   <section class="l-container l-slice--l">
-    <img src="../assets/images/katie-fritz.jpg" alt="Katie Fritz" class="a-img--portrait l-left l-top" />
+  <figure class="m-figure l-left l-top">
+    <div class="m-figure__media">
+      <img src="../assets/images/katie-fritz.jpg" alt="Katie Fritz" class="a-img--portrait" />
+    </div>
+  </figure>
+
 
     <h1>Hi, I'm Katie.</h1>
     <p>Here's what you should know about me.</p>

@@ -1,30 +1,31 @@
 <template>
-<section class="l-container l-slice--l">
-  <h2>Previous and current clients</h2>
+<section class="l-container l-slice--l" role="group">
+  <h2>Selected clients</h2>
   <div class="m-gallery" >
-    <img
+    <m-gallery-item
       v-for="client in clients"
-      class="a-img--thumbnail"
       :src="client.src"
-      :alt="client.name"
-      :title="client.name"
-    >
+      :alt="alt"
+      :caption="client.name"
+    />
   </div>
 </section>
 </template>
 
 <script>
+import mGalleryItem from '../molecules/m-gallery-item.vue'
+
 var CLIENTS = [
   {
     name: 'Community Housing Network',
     src: '/clients/chn.png'
   },
   {
-    name: 'NACEDA',
+    name: 'NACEDA (National Alliance of Community Economic Development Associations)',
     src: '/clients/naceda.png'
   },
   {
-    name: 'MSU',
+    name: 'MSU (Michigan State University)',
     src: '/clients/msu.jpg'
   },
   {
@@ -44,7 +45,7 @@ var CLIENTS = [
     src: '/clients/mrc.png'
   },
   {
-    name: 'CEDAM',
+    name: 'CEDAM (Community Economic Development Association of Michigan)',
     src: '/clients/cedam.jpg'
   },
   {
@@ -57,8 +58,12 @@ var CLIENTS = [
 export default {
   data () {
     return {
+      alt: '',
       clients: CLIENTS
     }
+  },
+  components: {
+    'm-gallery-item': mGalleryItem
   }
 }
 </script>
