@@ -1,7 +1,10 @@
 <template>
   <div>
+    <a href="#maincontent">Skip to main content</a>
     <o-header/>
-    <nuxt/>
+    <main role="main" id="maincontent">
+      <nuxt/>
+    </main>
     <o-footer/>
   </div>
 </template>

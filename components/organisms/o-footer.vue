@@ -4,7 +4,7 @@
 
     <m-contact-nav/>
 
-    <section class="u-center-text">
+    <section class="u-center-text" "content-info">
       <p v-html="colophon"></p>
     </section>
   </div>
