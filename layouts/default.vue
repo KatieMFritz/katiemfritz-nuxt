@@ -1,10 +1,8 @@
 <template>
   <div>
-    <a href="#maincontent">Skip to main content</a>
+    <a href="#maincontent" class="u-hide-until-focus">Skip to main content</a>
     <o-header/>
-    <main role="main" id="maincontent">
-      <nuxt/>
-    </main>
+    <nuxt/>
     <o-footer/>
   </div>
 </template>

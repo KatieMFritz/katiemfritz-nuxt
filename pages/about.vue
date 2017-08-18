@@ -1,4 +1,5 @@
 <template>
+<main role="main" id="maincontent">
   <section class="l-container l-slice--l">
     <img src="../assets/images/katie-fritz.jpg" alt="Katie Fritz" class="a-img--portrait l-left l-top" />
 
@@ -16,6 +17,7 @@
   </section>
   <o-past-clients/>
   <m-cta :message="cta"/>
+</main>
 </template>
 
 <script>

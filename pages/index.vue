@@ -1,6 +1,8 @@
 <template>
+<main role="main" id="maincontent">
   <m-banner/>
   <o-teaser-questions/>
+</main>
 </template>
 
 <script>

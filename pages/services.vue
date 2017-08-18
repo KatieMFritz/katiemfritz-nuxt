@@ -1,7 +1,9 @@
 <template>
+<main role="main" id="maincontent">
   <section class="l-slice--l l-container" v-html="intro"></section>
   <m-bubble-group :bubbles="bubbles"/>
   <m-cta :message="cta"/>
+</main>
 </template>
 
 <script>
