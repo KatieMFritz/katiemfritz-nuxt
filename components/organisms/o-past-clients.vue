@@ -1,7 +1,7 @@
 <template>
 <section class="l-container l-slice--l" role="group">
-  <h2>Selected clients</h2>
-  <div class="m-gallery" >
+  <h2>{{ galleryTitle }}</h2>
+  <div class="o-gallery" >
     <m-gallery-item
       v-for="client in clients"
       :key="client.name"
@@ -59,6 +59,7 @@ var CLIENTS = [
 export default {
   data () {
     return {
+      galleryTitle: 'Selected clients',
       alt: '',
       clients: CLIENTS
     }

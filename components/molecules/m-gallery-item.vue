@@ -1,5 +1,5 @@
 <template>
-<figure class="m-gallery__item" tabindex="0">
+<figure class="o-gallery__item" tabindex="0">
   <div class="m-figure__media">
     <img class="a-img--thumbnail" :src="src" :alt="alt">
   </div>
