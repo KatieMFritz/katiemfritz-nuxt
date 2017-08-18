@@ -5,6 +5,9 @@ module.exports = {
   ** Headers of the page
   */
   head: {
+    // Language
+    htmlAttrs:
+      { lang: 'en-US'},
     meta: [
       // Page Parsing
       { charset: 'utf-8' },
