@@ -56,7 +56,7 @@ export default options => {
         },
         {
           name: 'twitter:image',
-          content: options.image || 'https://katiemfritz.com/images/KMF-logo-symbol.jpg'
+          content: options.image || 'https://katiemfritz.com/images/KMF-logo-symbol-padded.png'
         },
         {
           name: 'twitter:image:alt',
