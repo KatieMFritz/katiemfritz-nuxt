@@ -20,3 +20,11 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+## Deploying to Netlify
+
+After committing changes, push to [Netlify](https://app.netlify.com/sites/katiemfritz/deploys) with
+
+```bash
+$ git push origin master:live
+```
