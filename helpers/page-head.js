@@ -28,6 +28,39 @@ export default options => {
         {
           property: 'og:url',
           content: url
+        },
+        {
+          property: 'og:description',
+          content: options.description || 'Katie Fritz makes intuitive, empowering websites for progressive organizations.'
+        },
+        {
+          property: 'og:image',
+          content: options.image || 'https://katiemfritz.com/images/KMF-logo-large.png'
+        },
+        // Twitter
+        {
+          name: 'twitter:card',
+          content: 'summary'
+        },
+        {
+          name: 'twitter:site',
+          content: '@KatieMaeFritz'
+        },
+        {
+          name: 'twitter:title',
+          content: title
+        },
+        {
+          name: 'twitter:description',
+          content: options.description || 'Katie Fritz makes intuitive, empowering websites for progressive organizations.'
+        },
+        {
+          name: 'twitter:image',
+          content: options.image || 'https://katiemfritz.com/images/KMF-logo-symbol.png'
+        },
+        {
+          name: 'twitter:image:alt',
+          content: options.alt || 'Katie M Fritz, LLC logo'
         }
       ]
     }

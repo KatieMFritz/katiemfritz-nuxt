@@ -33,7 +33,9 @@ import oPastClients from '../components/organisms/o-past-clients.vue'
 export default {
   head: pageHead({
     title: 'About',
-    description: 'About Katie Fritz, web developer and communications consultant at Katie M Fritz, LLC'
+    description: 'About Katie Fritz, web developer and communications consultant at Katie M Fritz, LLC',
+    image: 'https://katiemfritz.com/images/katie-fritz-small-square.jpg',
+    alt: 'Katie Fritz headshot'
   }),
   data () {
     return {
