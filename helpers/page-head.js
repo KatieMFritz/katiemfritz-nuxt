@@ -35,7 +35,7 @@ export default options => {
         },
         {
           property: 'og:image',
-          content: options.image || 'https://katiemfritz.com/images/KMF-logo-large.png'
+          content: options.image || 'https://katiemfritz.com/images/KMF-logo-Facebook.png'
         },
         // Twitter
         {
@@ -56,7 +56,7 @@ export default options => {
         },
         {
           name: 'twitter:image',
-          content: options.image || 'https://katiemfritz.com/images/KMF-logo-symbol.png'
+          content: options.image || 'https://katiemfritz.com/images/KMF-logo-symbol.jpg'
         },
         {
           name: 'twitter:image:alt',
