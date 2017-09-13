@@ -3,7 +3,7 @@
   <header class="o-header" role="banner">
     <div class="l-container">
       <a href="/" title="Katie M Fritz, LLC | Home" class="m-logo-link">
-        <img src="../../assets/images/KMF-logo-transparent.png" class="a-logo" alt="Katie M Fritz, LLC" />
+        <img src="../../assets/images/KMF-logo.svg" class="a-logo" alt="Katie M Fritz, LLC" />
       </a><!-- end a-logo -->
 
       <m-primary-nav/>
