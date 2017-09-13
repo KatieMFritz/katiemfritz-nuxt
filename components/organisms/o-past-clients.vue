@@ -35,7 +35,7 @@ var CLIENTS = [
   },
   {
     name: 'Asset Independence Coalition',
-    src: '/clients/aic.jpg'
+    src: '/clients/aic.png'
   },
   {
     name: 'City Club of Portland',
