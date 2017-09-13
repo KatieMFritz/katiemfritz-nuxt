@@ -27,7 +27,7 @@ var CLIENTS = [
   },
   {
     name: 'MSU (Michigan State University)',
-    src: '/clients/msu.jpg'
+    src: '/clients/msu.gif'
   },
   {
     name: 'Opportunity Resource Fund',
