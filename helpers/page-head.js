@@ -61,6 +61,15 @@ export default options => {
         {
           name: 'twitter:image:alt',
           content: options.alt || 'Katie M Fritz, LLC logo'
+        },
+        // Icons
+        {
+          name: 'msapplication-config',
+          content: 'icons/browserconfig.xml'
+        },
+        {
+          name: 'theme-color',
+          content: '#ffffff'
         }
       ]
     }
