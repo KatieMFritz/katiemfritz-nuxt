@@ -65,7 +65,7 @@ export default options => {
         // Icons
         {
           name: 'msapplication-config',
-          content: 'icons/browserconfig.xml'
+          content: '/icons/browserconfig.xml'
         },
         {
           name: 'theme-color',

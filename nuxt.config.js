@@ -25,12 +25,12 @@ module.exports = {
     link: [
       // Favicons
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: 'icons/apple-touch-icon.png' },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'icons/favicon-32x32.png' },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'icons/favicon-16x16.png' },
-      { rel: 'manifest', href: 'icons/manifest.json' },
-      { rel: 'mask-icon', href: 'icons/safari-pinned-tab.svg', color: '#1995a9' },
-      { rel: 'shortcut icon', href: 'icons/favicon.ico' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/icons/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/icons/favicon-16x16.png' },
+      { rel: 'manifest', href: '/icons/manifest.json' },
+      { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#1995a9' },
+      { rel: 'shortcut icon', href: '/icons/favicon.ico' },
 
       // Fonts
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i|Josefin+Slab:400,700,700i'}
