@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+  C:\Program Files\nodejs\node.exe C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vue-loader
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\katie\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\Boxcryptor\bin;C:\wamp64\bin\php\php5.6.19;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Calibre2;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\wamp64\bin\php\php7.1.9;C:\Program Files\Git\cmd;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.0\bin;C:\RailsInstaller\Ruby2.2.0\bin;C:\Users\katie\AppData\Local\Microsoft\WindowsApps;C:\Users\katie\AppData\Local\atom\bin;C:\Users\katie\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Heroku\bin;C:\Users\katie\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\katie\AppData\Roaming\npm;C:\Program Files (x86)\EaseUS\Todo Backup\bin\x64
@@ -23,6 +23,8 @@ npm manifest:
     "dependencies": {
       "@nuxtjs/google-analytics": "^1.0.0",
       "nuxt": "^1.0.0-rc11",
+      "vue": "2.2.6",
+      "vue-server-renderer": "2.2.6",
       "vue-style-loader": "^3.0.3"
     },
     "config": {
@@ -56,6 +58,8 @@ npm manifest:
       "eslint-plugin-standard": "^2.0.1",
       "node-sass": "^4.5.3",
       "sass-loader": "^6.0.6",
+      "vue-loader": "^13.3.0",
+      "vue-template-compiler": "2.2.6"
     }
   }
 
@@ -94,11 +98,53 @@ Lockfile:
       react-inspector "^2.2.1"
       uuid "^3.1.0"
   
-  "@storybook/addon-links@^3.2.16":
+  "@storybook/addon-centered@^3.2.13":
+    version "3.2.16"
+    resolved "https://registry.yarnpkg.com/@storybook/addon-centered/-/addon-centered-3.2.16.tgz#93c199414cd4b66eb253f4c13246977fa335efb2"
+    dependencies:
+      global "^4.3.2"
+  
+  "@storybook/addon-knobs@^3.2.13":
+    version "3.2.16"
+    resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.2.16.tgz#c19747656a969e5b960e4edeb54e5d5f4198609b"
+    dependencies:
+      "@storybook/addons" "^3.2.16"
+      babel-runtime "^6.26.0"
+      deep-equal "^1.0.1"
+      global "^4.3.2"
+      insert-css "^2.0.0"
+      lodash.debounce "^4.0.8"
+      moment "^2.19.2"
+      prop-types "^15.6.0"
+      react-color "^2.11.4"
+      react-datetime "^2.11.0"
+      react-textarea-autosize "^5.2.1"
+      util-deprecate "^1.0.2"
+  
+  "@storybook/addon-links@^3.2.13", "@storybook/addon-links@^3.2.16":
     version "3.2.16"
     resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-3.2.16.tgz#58b807f7fbcdadb405c6379e69a22c48025c9558"
     dependencies:
       "@storybook/addons" "^3.2.16"
+  
+  "@storybook/addon-notes@^3.2.13":
+    version "3.2.16"
+    resolved "https://registry.yarnpkg.com/@storybook/addon-notes/-/addon-notes-3.2.16.tgz#833332a58db5160866aa94143945ae588f6dd243"
+    dependencies:
+      "@storybook/addons" "^3.2.16"
+      babel-runtime "^6.26.0"
+      prop-types "^15.6.0"
+      util-deprecate "^1.0.2"
+    optionalDependencies:
+      "@types/react" "^16.0.20"
+  
+  "@storybook/addon-viewport@^3.3.0-alpha.0":
+    version "3.3.0-alpha.4"
+    resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-3.3.0-alpha.4.tgz#4a95497505be3d7f839f9d718e23ec6ae2e91a8a"
+    dependencies:
+      "@storybook/src/components" "^3.3.0-alpha.4"
+      global "^4.3.2"
+      prop-types "^15.5.10"
   
   "@storybook/addons@^3.2.16":
     version "3.2.16"
@@ -116,9 +162,17 @@ Lockfile:
     version "3.2.16"
     resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-3.2.16.tgz#07d8686328c0bb885aa8b69254fcf0745d22a620"
   
-  "@storybook/components@^3.2.16":
+  "@storybook/src/components@^3.2.16":
     version "3.2.16"
-    resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.2.16.tgz#381c4ce414f139fb03b059f1f0265c6246457e7b"
+    resolved "https://registry.yarnpkg.com/@storybook/src/components/-/src/components-3.2.16.tgz#381c4ce414f139fb03b059f1f0265c6246457e7b"
+    dependencies:
+      glamor "^2.20.40"
+      glamorous "^4.11.0"
+      prop-types "^15.6.0"
+  
+  "@storybook/src/components@^3.3.0-alpha.4":
+    version "3.3.0-alpha.4"
+    resolved "https://registry.yarnpkg.com/@storybook/src/components/-/src/components-3.3.0-alpha.4.tgz#6a48d65056b42fa32bd0d544fb18017f183c7509"
     dependencies:
       glamor "^2.20.40"
       glamorous "^4.11.0"
@@ -169,7 +223,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@storybook/ui/-/ui-3.2.16.tgz#b7df979c2f5770e54cf84300cc09b7072c2fef16"
     dependencies:
       "@hypnosphi/fuse.js" "^3.0.9"
-      "@storybook/components" "^3.2.16"
+      "@storybook/src/components" "^3.2.16"
       "@storybook/mantra-core" "^1.7.0"
       "@storybook/react-fuzzy" "^0.4.3"
       "@storybook/react-komposer" "^2.0.0"
@@ -192,7 +246,7 @@ Lockfile:
       react-treebeard "^2.0.3"
       redux "^3.7.2"
   
-  "@storybook/vue@^3.2.16":
+  "@storybook/vue@^3.2.13":
     version "3.2.16"
     resolved "https://registry.yarnpkg.com/@storybook/vue/-/vue-3.2.16.tgz#280a15d48923d7fbe8008f91769ef3b3a15d3c70"
     dependencies:
@@ -253,7 +307,7 @@ Lockfile:
     version "3.0.1"
     resolved "https://registry.yarnpkg.com/@types/inline-style-prefixer/-/inline-style-prefixer-3.0.1.tgz#8541e636b029124b747952e9a28848286d2b5bf6"
   
-  "@types/react@^16.0.18":
+  "@types/react@^16.0.18", "@types/react@^16.0.20":
     version "16.0.25"
     resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.25.tgz#bf696b83fe480c5e0eff4335ee39ebc95884a1ed"
   
@@ -2344,6 +2398,14 @@ Lockfile:
       safe-buffer "^5.0.1"
       sha.js "^2.4.8"
   
+  create-react-class@^15.5.2:
+    version "15.6.2"
+    resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
+    dependencies:
+      fbjs "^0.8.9"
+      loose-envify "^1.3.1"
+      object-assign "^4.1.1"
+  
   cross-spawn@^3.0.0:
     version "3.0.1"
     resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-3.0.1.tgz#1256037ecb9f0c5f79e3d6ef135e30770184b982"
@@ -3182,7 +3244,7 @@ Lockfile:
     version "1.1.1"
     resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
   
-  fbjs@^0.8.12, fbjs@^0.8.16:
+  fbjs@^0.8.12, fbjs@^0.8.16, fbjs@^0.8.9:
     version "0.8.16"
     resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
     dependencies:
@@ -3921,6 +3983,10 @@ Lockfile:
       strip-ansi "^3.0.0"
       through "^2.3.6"
   
+  insert-css@^2.0.0:
+    version "2.0.0"
+    resolved "https://registry.yarnpkg.com/insert-css/-/insert-css-2.0.0.tgz#eb5d1097b7542f4c79ea3060d3aee07d053880f4"
+  
   interpret@^1.0.0:
     version "1.0.3"
     resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.3.tgz#cbc35c62eeee73f19ab7b10a801511401afc0f90"
@@ -4464,7 +4530,7 @@ Lockfile:
     version "4.5.0"
     resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   
-  lodash@4.x.x, lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@~4.17.4:
+  lodash@4.x.x, lodash@^4.0.0, lodash@^4.0.1, lodash@^4.14.0, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@~4.17.4:
     version "4.17.4"
     resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
   
@@ -4519,6 +4585,10 @@ Lockfile:
   map-obj@^1.0.0, map-obj@^1.0.1:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
+  
+  material-colors@^1.2.1:
+    version "1.2.5"
+    resolved "https://registry.yarnpkg.com/material-colors/-/material-colors-1.2.5.tgz#5292593e6754cb1bcc2b98030e4e0d6a3afc9ea1"
   
   math-expression-evaluator@^1.2.14:
     version "1.2.17"
@@ -4669,6 +4739,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
     dependencies:
       minimist "0.0.8"
+  
+  moment@^2.19.2:
+    version "2.19.3"
+    resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.3.tgz#bdb99d270d6d7fda78cc0fbace855e27fe7da69f"
   
   ms@2.0.0:
     version "2.0.0"
@@ -4953,6 +5027,10 @@ Lockfile:
   oauth-sign@~0.8.1, oauth-sign@~0.8.2:
     version "0.8.2"
     resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
+  
+  object-assign@^3.0.0:
+    version "3.0.0"
+    resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-3.0.0.tgz#9bedd5ca0897949bca47e7ff408062d549f587f2"
   
   object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
     version "4.1.1"
@@ -5824,7 +5902,7 @@ Lockfile:
       source-map "^0.5.6"
       supports-color "^4.2.0"
   
-  postcss@^6.0.13:
+  postcss@^6.0.13, postcss@^6.0.8:
     version "6.0.14"
     resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.14.tgz#5534c72114739e75d0afcf017db853099f562885"
     dependencies:
@@ -5843,6 +5921,10 @@ Lockfile:
   preserve@^0.2.0:
     version "0.2.0"
     resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
+  
+  prettier@^1.7.0:
+    version "1.8.2"
+    resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.8.2.tgz#bff83e7fd573933c607875e5ba3abbdffb96aeb8"
   
   pretty-error@^2.0.2, pretty-error@^2.1.1:
     version "2.1.1"
@@ -5897,7 +5979,7 @@ Lockfile:
     dependencies:
       asap "~2.0.3"
   
-  prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0:
+  prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0:
     version "15.6.0"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
     dependencies:
@@ -6028,6 +6110,25 @@ Lockfile:
       minimist "^1.2.0"
       strip-json-comments "~2.0.1"
   
+  react-color@^2.11.4:
+    version "2.13.8"
+    resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.13.8.tgz#bcc58f79a722b9bfc37c402e68cd18f26970aee4"
+    dependencies:
+      lodash "^4.0.1"
+      material-colors "^1.2.1"
+      prop-types "^15.5.10"
+      reactcss "^1.2.0"
+      tinycolor2 "^1.4.1"
+  
+  react-datetime@^2.11.0:
+    version "2.11.0"
+    resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.11.0.tgz#6560a8e5b81f7e52986083dc2e8cb94bb74528ea"
+    dependencies:
+      create-react-class "^15.5.2"
+      object-assign "^3.0.0"
+      prop-types "^15.5.7"
+      react-onclickoutside "^6.5.0"
+  
   react-docgen@^2.15.0:
     version "2.20.0"
     resolved "https://registry.yarnpkg.com/react-docgen/-/react-docgen-2.20.0.tgz#41a6da483a34a4aaed041a9909f5e61864d681cb"
@@ -6080,6 +6181,10 @@ Lockfile:
       prop-types "^15.5.10"
       warning "^3.0.0"
   
+  react-onclickoutside@^6.5.0:
+    version "6.7.0"
+    resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.7.0.tgz#997a4d533114c9a0a104913638aa26afc084f75c"
+  
   react-split-pane@^0.1.71:
     version "0.1.71"
     resolved "https://registry.yarnpkg.com/react-split-pane/-/react-split-pane-0.1.71.tgz#19b1b30638655e655f9f5fe57b1ae7cc6c151829"
@@ -6095,6 +6200,12 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-style-proptype/-/react-style-proptype-3.1.0.tgz#c8912fc13460f5b0c1ec1114c729d535b52b8073"
     dependencies:
       prop-types "^15.5.4"
+  
+  react-textarea-autosize@^5.2.1:
+    version "5.2.1"
+    resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-5.2.1.tgz#2b78f9067180f41b08ac59f78f1581abadd61e54"
+    dependencies:
+      prop-types "^15.6.0"
   
   react-transition-group@^1.1.2:
     version "1.2.1"
@@ -6125,6 +6236,12 @@ Lockfile:
       loose-envify "^1.1.0"
       object-assign "^4.1.1"
       prop-types "^15.6.0"
+  
+  reactcss@^1.2.0:
+    version "1.2.3"
+    resolved "https://registry.yarnpkg.com/reactcss/-/reactcss-1.2.3.tgz#c00013875e557b1cf0dfd9a368a1c3dab3b548dd"
+    dependencies:
+      lodash "^4.0.1"
   
   read-cache@^1.0.0:
     version "1.0.0"
@@ -6451,6 +6568,12 @@ Lockfile:
   resolve@^1.1.6, resolve@^1.1.7, resolve@^1.2.0, resolve@^1.3.3:
     version "1.4.0"
     resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.4.0.tgz#a75be01c53da25d934a98ebd0e4c4a7312f92a86"
+    dependencies:
+      path-parse "^1.0.5"
+  
+  resolve@^1.4.0:
+    version "1.5.0"
+    resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
     dependencies:
       path-parse "^1.0.5"
   
@@ -7045,6 +7168,10 @@ Lockfile:
       global "^4.3.2"
       setimmediate "^1.0.4"
   
+  tinycolor2@^1.4.1:
+    version "1.4.1"
+    resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
+  
   tmp@^0.0.31:
     version "0.0.31"
     resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.31.tgz#8f38ab9438e17315e5dbd8b3657e8bfb277ae4a7"
@@ -7319,7 +7446,7 @@ Lockfile:
     version "2.1.0"
     resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.1.0.tgz#9ca58a6e0df9078554ce1708688b6578754d86de"
   
-  vue-hot-reload-api@^2.2.3:
+  vue-hot-reload-api@^2.2.0, vue-hot-reload-api@^2.2.3:
     version "2.2.4"
     resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.2.4.tgz#683bd1d026c0d3b3c937d5875679e9a87ec6cd8f"
   
@@ -7341,6 +7468,24 @@ Lockfile:
       vue-style-loader "^3.0.0"
       vue-template-es2015-compiler "^1.5.3"
   
+  vue-loader@^13.3.0:
+    version "13.5.0"
+    resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-13.5.0.tgz#52f7b3790a267eff80012b77ea187a54586dd5d4"
+    dependencies:
+      consolidate "^0.14.0"
+      hash-sum "^1.0.2"
+      loader-utils "^1.1.0"
+      lru-cache "^4.1.1"
+      postcss "^6.0.8"
+      postcss-load-config "^1.1.0"
+      postcss-selector-parser "^2.0.0"
+      prettier "^1.7.0"
+      resolve "^1.4.0"
+      source-map "^0.6.1"
+      vue-hot-reload-api "^2.2.0"
+      vue-style-loader "^3.0.0"
+      vue-template-es2015-compiler "^1.6.0"
+  
   vue-meta@^1.1.0:
     version "1.2.0"
     resolved "https://registry.yarnpkg.com/vue-meta/-/vue-meta-1.2.0.tgz#f4cedccaae566ea0a27f052820dc076510d0080c"
@@ -7352,6 +7497,16 @@ Lockfile:
   vue-router@^2.7.0:
     version "2.7.0"
     resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.7.0.tgz#16d424493aa51c3c8cce8b7c7210ea4c3a89aff1"
+  
+  vue-server-renderer@2.2.6:
+    version "2.2.6"
+    resolved "https://registry.yarnpkg.com/vue-server-renderer/-/vue-server-renderer-2.2.6.tgz#0a20535544b6948bca076380d058e19bb1304eef"
+    dependencies:
+      de-indent "^1.0.2"
+      he "^1.1.0"
+      resolve "^1.2.0"
+      source-map "0.5.6"
+      vue-ssr-html-stream "^2.1.0"
   
   vue-server-renderer@~2.4.2:
     version "2.4.2"
@@ -7365,6 +7520,12 @@ Lockfile:
       resolve "^1.2.0"
       serialize-javascript "^1.3.0"
       source-map "0.5.6"
+  
+  vue-ssr-html-stream@^2.1.0:
+    version "2.2.0"
+    resolved "https://registry.yarnpkg.com/vue-ssr-html-stream/-/vue-ssr-html-stream-2.2.0.tgz#56d78b96c9c172b43749a324c156e888aca96d92"
+    dependencies:
+      serialize-javascript "^1.3.0"
   
   vue-style-loader@^3.0.0:
     version "3.0.1"
@@ -7380,6 +7541,13 @@ Lockfile:
       hash-sum "^1.0.2"
       loader-utils "^1.0.2"
   
+  vue-template-compiler@2.2.6:
+    version "2.2.6"
+    resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.2.6.tgz#2e2928daf0cd0feca9dfc35a9729adeae173ec68"
+    dependencies:
+      de-indent "^1.0.2"
+      he "^1.1.0"
+  
   vue-template-compiler@~2.4.2:
     version "2.4.2"
     resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.4.2.tgz#5a45d843f148b098f6c1d1e35ac20c4956d30ad1"
@@ -7390,6 +7558,14 @@ Lockfile:
   vue-template-es2015-compiler@^1.5.3:
     version "1.5.3"
     resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
+  
+  vue-template-es2015-compiler@^1.6.0:
+    version "1.6.0"
+    resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
+  
+  vue@2.2.6:
+    version "2.2.6"
+    resolved "https://registry.yarnpkg.com/vue/-/vue-2.2.6.tgz#451714b394dd6d4eae7b773c40c2034a59621aed"
   
   vue@~2.4.2:
     version "2.4.2"
@@ -7678,10 +7854,14 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  SyntaxError: C:\wamp64\www\katiemfritz-nuxt\package.json: Unexpected token } in JSON at position 1249
-      at JSON.parse (<anonymous>)
-      at C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:764:59
-      at Generator.next (<anonymous>)
-      at step (C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92:30)
-      at C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:103:13
-      at <anonymous>
+  Error: https://registry.yarnpkg.com/@storybook/src/components/-/src/components-3.3.0-alpha.4.tgz: Request failed "404 Not Found"
+      at Request.<anonymous> (C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:59051:26)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:122803:10)
+      at emitOne (events.js:115:13)
+      at ClientRequest.emit (events.js:210:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:565:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:116:23)
+      at TLSSocket.socketOnData (_http_client.js:454:20)
+      at emitOne (events.js:115:13)

@@ -2,6 +2,10 @@ const siteName = 'Katie M Fritz, LLC'
 
 module.exports = {
   /*
+  ** sets new source directory for nuxt files
+  */
+  srcDir: 'src/',
+  /*
   ** Headers of the page
   */
   head: {
@@ -40,7 +44,7 @@ module.exports = {
   ],
   css: [
     {
-      src: '~assets/css/main.css',
+      src: '~/assets/css/main.css',
       lang: 'css'
     }
   ],

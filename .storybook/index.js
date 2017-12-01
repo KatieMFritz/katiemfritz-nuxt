@@ -1,2 +1,2 @@
-import '../components'
+import '../src/components'
 import '../design-system'

@@ -73,7 +73,7 @@
   version "3.3.0-alpha.4"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-3.3.0-alpha.4.tgz#4a95497505be3d7f839f9d718e23ec6ae2e91a8a"
   dependencies:
-    "@storybook/components" "^3.3.0-alpha.4"
+    "@storybook/src/components" "^3.3.0-alpha.4"
     global "^4.3.2"
     prop-types "^15.5.10"
 
@@ -93,17 +93,17 @@
   version "3.2.16"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-3.2.16.tgz#07d8686328c0bb885aa8b69254fcf0745d22a620"
 
-"@storybook/components@^3.2.16":
+"@storybook/src/components@^3.2.16":
   version "3.2.16"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.2.16.tgz#381c4ce414f139fb03b059f1f0265c6246457e7b"
+  resolved "https://registry.yarnpkg.com/@storybook/src/components/-/src/components-3.2.16.tgz#381c4ce414f139fb03b059f1f0265c6246457e7b"
   dependencies:
     glamor "^2.20.40"
     glamorous "^4.11.0"
     prop-types "^15.6.0"
 
-"@storybook/components@^3.3.0-alpha.4":
+"@storybook/src/components@^3.3.0-alpha.4":
   version "3.3.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.3.0-alpha.4.tgz#6a48d65056b42fa32bd0d544fb18017f183c7509"
+  resolved "https://registry.yarnpkg.com/@storybook/src/components/-/src/components-3.3.0-alpha.4.tgz#6a48d65056b42fa32bd0d544fb18017f183c7509"
   dependencies:
     glamor "^2.20.40"
     glamorous "^4.11.0"
@@ -154,7 +154,7 @@
   resolved "https://registry.yarnpkg.com/@storybook/ui/-/ui-3.2.16.tgz#b7df979c2f5770e54cf84300cc09b7072c2fef16"
   dependencies:
     "@hypnosphi/fuse.js" "^3.0.9"
-    "@storybook/components" "^3.2.16"
+    "@storybook/src/components" "^3.2.16"
     "@storybook/mantra-core" "^1.7.0"
     "@storybook/react-fuzzy" "^0.4.3"
     "@storybook/react-komposer" "^2.0.0"
