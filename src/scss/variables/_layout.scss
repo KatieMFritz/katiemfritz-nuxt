@@ -1,0 +1,60 @@
+/* This helps paragraphs not get too narrow. @https://css-tricks.com/minimum-paragraph-widths/ */
+p::before {
+  content: '';
+  display: block;
+  overflow: hidden;
+  width: 10em;
+}
+
+/* container to keep things from spreading */
+.l-container {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0 $space-m;
+  @media (min-width: 52rem) {
+    padding: 0;
+  }
+}
+
+.l-slice {
+  margin-bottom: $space-default;
+  padding-top: $space-default;
+}
+
+.l-slice--l {
+  margin-bottom: $space-l;
+
+  &:first-child {
+    padding-top: $space-l;
+  }
+}
+
+.l-slice--s {
+  margin-bottom: $space-s;
+}
+
+/* floating images/figures */
+// TODO: center images on narrow viewports
+
+.l-left {
+  @media (min-width: 440px) {
+    float: left;
+    margin: $space-m $space-l $space-m 0;
+  }
+}
+
+.l-right {
+  @media (min-width: 440px) {
+    float: right;
+    margin: $space-m 0 $space-m $space-l;
+  }
+}
+
+/* not 0 because line-height */
+.l-top {
+  margin-top: $space-s;
+}
+
+.l-bottom {
+  margin-bottom: 0;
+}

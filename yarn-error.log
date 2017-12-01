@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vue-loader
+  C:\Program Files\nodejs\node.exe C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\katie\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\Boxcryptor\bin;C:\wamp64\bin\php\php5.6.19;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Calibre2;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\wamp64\bin\php\php7.1.9;C:\Program Files\Git\cmd;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.0\bin;C:\RailsInstaller\Ruby2.2.0\bin;C:\Users\katie\AppData\Local\Microsoft\WindowsApps;C:\Users\katie\AppData\Local\atom\bin;C:\Users\katie\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Heroku\bin;C:\Users\katie\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\katie\AppData\Roaming\npm;C:\Program Files (x86)\EaseUS\Todo Backup\bin\x64
@@ -7854,7 +7854,7 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@storybook/src/components/-/src/components-3.3.0-alpha.4.tgz: Request failed "404 Not Found"
+  Error: https://registry.yarnpkg.com/@storybook/src/components/-/src/components-3.2.16.tgz: Request failed "404 Not Found"
       at Request.<anonymous> (C:\Users\katie\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:59051:26)
       at emitOne (events.js:115:13)
       at Request.emit (events.js:210:7)

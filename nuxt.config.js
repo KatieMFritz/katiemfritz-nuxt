@@ -1,10 +1,7 @@
 const siteName = 'Katie M Fritz, LLC'
+const resolve = require('path').resolve
 
 module.exports = {
-  /*
-  ** sets new source directory for nuxt files
-  */
-  srcDir: 'src/',
   /*
   ** Headers of the page
   */
@@ -58,13 +55,19 @@ module.exports = {
   */
   loading: { color: '#1997A9' },
   /*
+  ** sets new source directory for nuxt files
+  */
+  srcDir: 'src/',
+  /*
   ** Build configuration
   */
   build: {
-    /*
-    ** Run ESLINT on save
-    */
     extend (config, ctx) {
+      /* Set aliases */
+      config.resolve.alias = {
+        '@variables': resolve('src/scss/variables.scss')
+      }
+      /* Run ESLINT on save */
       if (ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',

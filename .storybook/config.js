@@ -1,4 +1,5 @@
 import { configure } from '@storybook/vue'
+// import '../src/scss/global.scss'
 
 import Vue from 'vue'
 
