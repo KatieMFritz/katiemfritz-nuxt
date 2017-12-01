@@ -7,7 +7,7 @@ module.exports = {
   head: {
     // Language
     htmlAttrs:
-      { lang: 'en-US'},
+      { lang: 'en-US' },
     meta: [
       // Page Parsing
       { charset: 'utf-8' },
@@ -32,7 +32,7 @@ module.exports = {
       { rel: 'shortcut icon', href: '/icons/favicon.ico' },
 
       // Fonts
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i|Josefin+Slab:400,700,700i'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i|Josefin+Slab:400,700,700i' }
     ]
   },
   modules: [
